@@ -1,0 +1,57 @@
+
+* {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* Custom styles for jQuery plugin */
+#lightbox {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    display: none;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.photos img {
+    padding: 1.5em;
+}
+
+.search-field {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+.search-field input {
+    width: 45%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 2px solid rgba(0, 0, 0, .1);
+    text-align: left;
+    font-size: .9em;
+    color: rgba(0, 0, 0, .5);
+}
+
+.search-field input:focus {
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, .4);
+
+}
+
+
