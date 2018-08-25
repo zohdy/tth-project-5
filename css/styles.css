@@ -22,23 +22,23 @@ figcaption {
     display: none;
 }
 
-.photos {
+#photos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
-.photos img {
+#photos img {
     padding: 1.5em;
 }
 
-.search-field {
+.search-wrapper {
     text-align: center;
     margin-top: 48px;
     margin-bottom: 32px;
 }
 
-.search-field input {
+#search-input {
     width: 45%;
     padding: 12px;
     border-radius: 4px;
@@ -48,7 +48,7 @@ figcaption {
     color: rgba(0, 0, 0, .5);
 }
 
-.search-field input:focus {
+#search-input:focus {
     outline: none;
     border: 2px solid rgba(0, 0, 0, .4);
 
