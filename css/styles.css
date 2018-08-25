@@ -14,14 +14,6 @@
     flex-direction: column-reverse;
 }
 
-figure {
-    margin: 0;
-}
-
-figcaption {
-    display: none;
-}
-
 #photos {
     display: flex;
     flex-wrap: wrap;
