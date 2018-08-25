@@ -50,7 +50,10 @@
 #search-input:focus {
     outline: none;
     border: 2px solid rgba(0, 0, 0, .4);
+}
 
+input:focus::-webkit-input-placeholder {
+    color: transparent;
 }
 
 ::placeholder {
