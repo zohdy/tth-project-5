@@ -52,6 +52,7 @@
     border: 2px solid rgba(0, 0, 0, .4);
 }
 
+/* Remove placeholder text on focus */
 input:focus::-webkit-input-placeholder {
     color: transparent;
 }
